@@ -23,7 +23,8 @@ public class ShapeDrawingApp extends JFrame {
         int defDepth = 100;
 
         /* Létrehozzuk az alakzatokat amik leirják a csészénket
-        * 4 alakzatra van bontva, az első maga a csésze, a második a fogója, a harmadik egy tányér alá, a negyedik pedig egy talp a tányérnak */
+        * 4 alakzatra van bontva, az első maga a csésze, a második a fogója, a harmadik egy tányér alá, a negyedik pedig egy talp a tányérnak
+        az ötödik alakzat az alulnézethez kell */
         cup = new Circle(0, 0, 0, 0, 0, Color.WHITE);
         cuphandle = new Arc(0, 0, 0, 0, 0, Color.DARK_GRAY);
         cupholder = new Circle(0, 0, 0, 0, 0, Color.GRAY);
